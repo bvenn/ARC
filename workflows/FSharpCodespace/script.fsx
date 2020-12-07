@@ -1,3 +1,6 @@
-System.IO.Directory.GetFiles(System.IO.Directory.GetCurrentDirectory())
+#load "/workspaces/FSharpCodespace/dependencies/.paket/load/netstandard2.0/main.group.fsx"
 
-System.IO.Directory.GetFiles("/arc/")
+open Plotly.NET
+
+Chart.Point([1.,2.])
+|> Chart.SaveHtmlAs "test"
