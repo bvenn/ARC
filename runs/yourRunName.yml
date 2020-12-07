@@ -1,0 +1,5 @@
+inputFiles:
+  - /…/assays/yourAssay/dataset/Sample1.txt
+  - /…/assays/yourAssay/dataset/Sample2.dat
+  - /…/assays/yourAssay/dataset/Sample3.txt
+plot: ./yourRunResultName/plot1.html
