@@ -6,7 +6,7 @@
 : main investigation file (in XLSX format), contains top-level information about the investigation and links to assays
 
 `/isa.studies.xlsx`
-: (optional) posibillity to group assays into studies within one investigation, contains mostly sample characteristics 
+: (optional) possibility to group assays into studies within one investigation, contains mostly sample characteristics 
 
 `/LICENSE` 
 : license file for the arc
@@ -18,7 +18,7 @@
 
 ### Assay
 
-All measurment (self generated) datasets are considert as assays (immutable input data)
+All measurement (self generated) datasets are considered as assays (immutable input data)
 
 `/assays/<assay>`
 : folder for an essay, name is arbitrary
@@ -27,7 +27,7 @@ All measurment (self generated) datasets are considert as assays (immutable inpu
 : assay dataset
 
 `/assays/<assay>/protocols`
-: assay protocol as text (e.g SOP)
+: assay protocol as text (e.g. SOP)
 
 `/assays/<assay>/isa.tab`
 : per-assay ISA file, contains only info about this assay (in XLSX format)
